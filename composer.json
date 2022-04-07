@@ -1,5 +1,5 @@
 {
-    "name": "nnjeim/world",
+    "name": "emiliopedrollo/world",
     "description": "Laravel countries, states, cities and currencies",
     "keywords": [
         "laravel",
@@ -26,6 +26,9 @@
     "require-dev": {
         "orchestra/testbench": ">=v4.0.0",
         "phpunit/phpunit": ">=8.5.8"
+    },
+    "replace": {
+        "nnjeim/world": "~1.1"
     },
     "autoload": {
         "psr-4": {
